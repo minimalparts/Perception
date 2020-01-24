@@ -60,9 +60,9 @@ There is CUDA support for running on GPU.
 
 Results for *see* are as follows (accuracy averages over 5-folds):
 
-<table border=1>
+<table>
 <tr>
-<td>**BNC**</td><td>**SEP**</td><td>**PHILO**</td>
+<td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
 </tr>
 <tr>
 <td>90%</td><td>98%</td><td></td>
