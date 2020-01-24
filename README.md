@@ -13,5 +13,6 @@ The study is specifically focused on lexical entries *see* and *aware*. Usage sa
 
 In addition to the annotation, the directory contains the contextualised vectors for *see* and *aware*, as obtained through BERT Base, for each annotated sentence. The images below show the class distribution for each corpus, after reducing the BERT vectors to 2D with PCA.
 
-![Class distribution for BNC see](/annotation/BNC/BNC_see.png?raw=true "Class distribution for BNC see")
-![Class distribution for SEP see](/annotation/SEP/SEP_see.png?raw=true "Class distribution for SEP see")
+<img src="https://github.com/minimalparts/Perception/blob/master/annotation/BNC/BNC_see.png" style=" width:100px ; " />
+<img src="https://github.com/minimalparts/Perception/blob/master/annotation/SEP/SEP_see.png" style=" width:100px ; " />
+
