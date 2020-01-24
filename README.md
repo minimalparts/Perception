@@ -1,4 +1,4 @@
-## Work in-progress - current README
+# Work in-progress - current README
 
 ### Data
 
@@ -37,4 +37,32 @@ In addition to the annotation, the directory contains the contextualised vectors
    </tr>
 </table>
 
+[TODO] Check on BNC aware data. Run classifier on ACPROSE subset.
 
+
+### Training
+
+The *training* directory contains code to train a perceptual vs non-perceptual classifier, using as input the BERT vectors extracted from the data. The classifier can only be trained for corpora for which we have annotation, so BNC, PHILO and SEP. The classifier is a simple MLP with two hidden layers and RELu activation, with softmax on the output layer.
+
+The training regime is as follows. For a given dataset, we first retain 200 instances for the optimisation of the model. Tuning is performed using *optimise.py*, which relies on Bayesian Optimisation (BayesOpt). BayesOpt is run for 200 iterations before returning the best set of hyperparameters.
+
+    python3 optimise.py BNC see
+
+The best hyperparameters can be printed in a user-friendly way using the following command over the json file generated in the relevant directory:
+
+    python3 read_json.py <path to json file>
+
+Once the system is tuned on a dataset, we perform 5-fold cross-validation on the rest of the data. E.g.
+
+    python3 classify.py --file=BNC/BNC_see_kfold_features.txt --lr=0.01 --batch=46 --epochs=50 --hidden=323 --wdecay=0.01
+
+There is CUDA support for running on GPU.
+
+Results for *see* are as follows (accuracy averages over 5-folds):
+
+<table border=1>
+<tr>
+<td>**BNC**</td><td>**SEP**</td><td>**PHILO**</td>
+<td>90\%</td><td>98\%</td><td></td>
+</tr>
+</table>
