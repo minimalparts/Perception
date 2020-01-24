@@ -63,6 +63,8 @@ Results for *see* are as follows (accuracy averages over 5-folds):
 <table border=1>
 <tr>
 <td>**BNC**</td><td>**SEP**</td><td>**PHILO**</td>
-<td>90\%</td><td>98\%</td><td></td>
+</tr>
+<tr>
+<td>90%</td><td>98%</td><td></td>
 </tr>
 </table>
