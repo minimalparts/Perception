@@ -37,14 +37,18 @@ def compute_PCA(m,dim):
 
 
 def draw_plot(features,annots):
+    txt = "Class distribution for "+sys.argv[1]+"\n(red = perceptual, blue = non-perceptual)"
+    fig = plt.figure()#num=0,figsize=(8.27, 11.69), dpi=300)
+    ax  = fig.add_subplot(1, 1, 1)
+    ax.set_title(txt)
     for i in range(len(annots)):
         if annots[i] == 'p':
             plt.plot(features[i][0],features[i][1],'o',color='red')
         else:
             plt.plot(features[i][0],features[i][1],'o',color='blue')
-    #filename = vatdir+".summary."+locus+".png" if locus else vatdir+".summary.png"
-    #plt.savefig(join("./img",filename.replace("vats/","")))
-    plt.show()    
+    filename = sys.argv[2]
+    plt.savefig(filename)
+    #plt.show()    
 
 
 features, annots = read_features(sys.argv[1])

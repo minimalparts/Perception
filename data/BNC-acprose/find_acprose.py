@@ -2,12 +2,31 @@
 
 from nltk.tokenize import word_tokenize
 import re, os
+import sys
 
-def cleanxml(raw_xml):
+word = sys.argv[1] #either 'see' or 'aware'
+
+see_words = ["see","seeing","sees","saw","seen"]
+aware_words = ["aware"]
+
+def cleanxml(raw_xml,word):
+    if word == "see":
+        words = see_words
+    else:
+        words = aware_words
     cleanr = re.compile('<.*?>')
     cleantext = re.sub(cleanr, '', raw_xml)
-    cleantext = ' '.join(word_tokenize(cleantext))
-    return cleantext.lower()
+    tokens = word_tokenize(cleantext)
+    #cleantext = ' '.join(word_tokenize(cleantext))
+    keep = False
+    for t in tokens:
+        if t in words:
+            keep = True
+            break
+    if keep:
+        return cleantext
+    else:
+        return ""
 
 def find_academic(filename):
     trigger = False
@@ -17,7 +36,9 @@ def find_academic(filename):
             trigger = True
         if trigger:
             l = l.rstrip('\n')
-            print(cleanxml(l))
+            l = cleanxml(l,word)
+            if l != "":
+                print(l)
         if '</wtext>' in l:
             trigger = False
 
