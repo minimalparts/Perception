@@ -21,8 +21,8 @@ In addition to the annotation, the directory contains the contextualised vectors
      <td>
      <img style="vertical-align: bottom;" width="100%" height="100%" src="https://github.com/minimalparts/Perception/blob/master/annotation/SEP/SEP_see.png" />
      </td>
-     <img style="vertical-align: bottom;" width="100%" height="100%" src="https://github.com/minimalparts/Perception/blob/master/annotation/PHILO/PHILO_see.png" />
      <td>
+     <img style="vertical-align: bottom;" width="100%" height="100%" src="https://github.com/minimalparts/Perception/blob/master/annotation/PHILO/PHILO_see.png" />
      </td>
    </tr>
    <tr>
