@@ -38,7 +38,6 @@ In addition to the annotation, the directory contains the contextualised vectors
    </tr>
 </table>
 
-[TODO] Check on BNC aware data. Run classifier on ACPROSE subset.
 
 
 ### Training
@@ -67,5 +66,23 @@ Results for *see* are as follows (accuracy averages over 5-folds):
 </tr>
 <tr>
 <td>90%</td><td>98%</td><td></td>
+</tr>
+</table>
+
+
+
+### Similarity between corpora
+
+We first check how a model trained on one corpus fares on the other corpora.
+
+<table>
+<tr>
+<td></td><td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
+</tr>
+<tr>
+<td><b>Baseline</b><td>70%</td><td>59%</td><td>60%</td>
+</tr>
+<tr>
+<td><b>BNC</b><td>-</td><td>96%</td><td>83%</td>
 </tr>
 </table>
