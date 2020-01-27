@@ -73,7 +73,7 @@ Results for *see* are as follows (accuracy averages over 5-folds):
 
 ### Similarity between corpora
 
-We first check how a model trained on one corpus fares on the other corpora.
+We first check how a model trained on one corpus fares on the other corpora. We first give results for *see*:
 
 <table>
 <tr>
@@ -84,5 +84,32 @@ We first check how a model trained on one corpus fares on the other corpora.
 </tr>
 <tr>
 <td><b>BNC</b><td>-</td><td>96%</td><td>83%</td>
+</tr>
+<tr>
+<td><b>SEP</b><td>88%</td><td>-</td><td>94%</td>
+</tr>
+<tr>
+<td><b>PHILO</b><td></td><td></td><td>-</td>
+</tr>
+</table>
+
+
+Results for *aware* are as follows:
+
+<table>
+<tr>
+<td></td><td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
+</tr>
+<tr>
+<td><b>Baseline</b><td>77%</td><td>59%</td><td>91%</td>
+</tr>
+<tr>
+<td><b>BNC</b><td>-</td><td>86%</td><td>88%</td>
+</tr>
+<tr>
+<td><b>SEP</b><td>89%</td><td>-</td><td>92%</td>
+</tr>
+<tr>
+<td><b>PHILO</b><td></td><td></td><td>-</td>
 </tr>
 </table>
