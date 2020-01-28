@@ -70,8 +70,22 @@ Results for *see* are as follows (accuracy averages over 5-folds):
 </table>
 
 
+Results for *aware* are as follows (accuracy averages over 5-folds):
+
+<table>
+<tr>
+<td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
+</tr>
+<tr>
+<td>90%</td><td>98%</td><td></td>
+</tr>
+</table>
+
+
 
 ### Similarity between corpora
+
+#### Cross-domain classification
 
 We first check how a model trained on one corpus fares on the other corpora. We first give results for *see*:
 
@@ -113,3 +127,42 @@ Results for *aware* are as follows:
 <td><b>PHILO</b><td></td><td></td><td>-</td>
 </tr>
 </table>
+
+
+#### N-gram distributions
+
+We also inspect the most frequent ngrams for each corpus (with n=3).
+
+<table>
+<tr>
+<td></td><td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
+</tr>
+<tr>
+<td><b>see</b><td>i saw 11
+she saw 8
+he saw 8
+i can see 4
+i do n't see 4
+i ca n't see 4
+you want to see 4
+to come and see 3
+i 've just seen 3
+i 've never seen 3</td>
+<td>as we have seen 43
+is hard to see 19
+to see 19
+as we shall see 14
+we have seen 10
+as we will see 8
+we see 8
+as we saw 8
+in order to see 7
+we have already seen 7</td>
+<td>91%</td>
+</tr>
+<tr>
+<td><b>aware</b><td>-</td><td>86%</td><td>88%</td>
+</tr>
+</table>
+
+
