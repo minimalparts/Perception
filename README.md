@@ -138,7 +138,7 @@ We also inspect the most frequent ngrams for each corpus (with n=3).
 <td></td><td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
 </tr>
 <tr>
-<td><b>see</b><td>i saw 11
+<td><b>see</b><td>i saw 11<br>
 she saw 8<br>
 he saw 8<br>
 i can see 4<br>
@@ -148,15 +148,15 @@ you want to see 4<br>
 to come and see 3<br>
 i 've just seen 3<br>
 i 've never seen 3</td>
-<td>as we have seen 43
-is hard to see 19
-to see 19
-as we shall see 14
-we have seen 10
-as we will see 8
-we see 8
-as we saw 8
-in order to see 7
+<td>as we have seen 43<br>
+is hard to see 19<br>
+to see 19<br>
+as we shall see 14<br>
+we have seen 10<br>
+as we will see 8<br>
+we see 8<br>
+as we saw 8<br>
+in order to see 7<br>
 we have already seen 7</td>
 <td>91%</td>
 </tr>
