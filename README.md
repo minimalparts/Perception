@@ -112,10 +112,10 @@ We first check how a model trained on one corpus fares on the other corpora. We 
 <td><b>BNC</b><td>-</td><td>96%</td><td>83%</td>
 </tr>
 <tr>
-<td><b>SEP</b><td>87%</td><td>-</td><td>94%</td>
+<td><b>SEP</b><td><b>87%</b></td><td>-</td><td><b>94%</b></td>
 </tr>
 <tr>
-<td><b>PHILO</b><td>81%</td><td>97%</td><td>-</td>
+<td><b>PHILO</b><td>81%</td><td><b>97%</b></td><td>-</td>
 </tr>
 </table>
 
@@ -130,10 +130,10 @@ Results for *aware* are as follows:
 <td><b>Baseline</b><td>79%</td><td>60%</td><td>91%</td>
 </tr>
 <tr>
-<td><b>BNC</b><td>-</td><td>85%</td><td>88%</td>
+<td><b>BNC</b><td>-</td><td><b>85%</b></td><td>88%</td>
 </tr>
 <tr>
-<td><b>SEP</b><td>89%</td><td>-</td><td>92%</td>
+<td><b>SEP</b><td><b>89%</b></td><td>-</td><td><b>92%</b></td>
 </tr>
 <tr>
 <td><b>PHILO</b><td>75%</td><td>80%</td><td>-</td>
@@ -252,7 +252,7 @@ seen that it is 6<br>
 </tr>
 
 <tr>
-<td><b>aware<br>(forward)</b>
+<td><b>aware<br>(before)</b>
 <td>need to be aware 14<br>
 she was aware 12<br>
 he was aware 8<br>
