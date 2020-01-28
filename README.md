@@ -151,7 +151,7 @@ We also inspect the most frequent ngrams for each corpus (with n=3).
 </tr>
 <tr>
 
-<td><b>see<br>(forward)</b>
+<td><b>see<br>(before)</b>
 
 <td>i saw 11<br>
 she saw 8<br>
@@ -197,6 +197,57 @@ as i can see 21<br>
 is difficult to see 20<br>
 that i am seeing 20<br>
 , as we saw 20<br>
+</td>
+</tr>
+
+<tr>
+<td><b>see<br>(after)</b>
+<td>see . 13<br>
+see me . 7<br>
+see you . 7<br>
+see it . 4<br>
+see ? 3<br>
+see him . 3<br>
+see it ? 3<br>
+see it as a 3<br>
+see them . 3<br>
+see 3<br>
+</td>
+
+<td>see 19<br>
+see , for example 8<br>
+see below 7<br>
+see chapter 5 5<br>
+seen as 4<br>
+see above , p. 4<br>
+see , however , 3<br>
+seen to be a 3<br>
+see above 3<br>
+see chapter 9 3<br>
+</td>
+
+<td>see the entry on 35<br>
+see , e . 15<br>
+see e . 11<br>
+see , for example 11<br>
+see section 2 . 9<br>
+see section 3 . 6<br>
+see other internet resources 5<br>
+see the entries on 5<br>
+see section 5 . 5<br>
+see below ) , 5<br>
+</td>
+
+<td>seen 28<br>
+see 23<br>
+see the same flash 14<br>
+sees that a is 12<br>
+see that it is 11<br>
+seeing 10<br>
+seen , it is 8<br>
+seen in virtue of 7<br>
+see it 6<br>
+seen that it is 6<br>
 </td>
 </tr>
 
@@ -248,6 +299,58 @@ are not directly aware 6<br>
 that i am aware 5<br>
 i am immediately aware 5<br>
 we are not aware 4<br>
+</td>
+</tr>
+
+
+<tr>
+<td><b>aware<br>(after)</b>
+<td>aware of it. 19<br>
+aware of the need 16<br>
+aware of the fact 12<br>
+aware of that. 12<br>
+aware of the dangers 10<br>
+aware of it , 10<br>
+aware of the problem 9<br>
+aware of this and 8<br>
+aware of this. 8<br>
+aware of the problems 8<br>
+</td>
+
+<td>aware of the need 23<br>
+aware of 22<br>
+aware of the fact 18<br>
+aware of the 16<br>
+aware of the nature 9<br>
+aware of the problem 9<br>
+aware of the importance 8<br>
+aware of the presence 7<br>
+aware 7<br>
+aware of the limitations 7<br>
+</td>
+
+<td>aware of the fact 30<br>
+aware of . 20<br>
+aware of it . 13<br>
+aware of it , 13<br>
+aware of , and 11<br>
+aware of them , 10<br>
+aware of one 's 9<br>
+aware of this , 8<br>
+aware of the limitations 8<br>
+aware of the problem 8<br>
+</td>
+
+<td>aware of an object 11<br>
+aware of 9<br>
+aware of the same 7<br>
+aware of material things 6<br>
+aware of them 5<br>
+aware of something that 5<br>
+aware of something 5<br>
+aware of them , 5<br>
+aware of it 5<br>
+aware of a non-normal 5<br>
 </td>
 </tr>
 </table>
