@@ -135,10 +135,13 @@ We also inspect the most frequent ngrams for each corpus (with n=3).
 
 <table>
 <tr>
-<td></td><td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
+<td></td><td><b>BNC</b></td><td><b>ACPROSE</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
 </tr>
 <tr>
-<td><b>see</b><td>i saw 11<br>
+
+<td><b>see (forward)</b>
+
+<td>i saw 11<br>
 she saw 8<br>
 he saw 8<br>
 i can see 4<br>
@@ -148,6 +151,19 @@ you want to see 4<br>
 to come and see 3<br>
 i 've just seen 3<br>
 i 've never seen 3</td>
+
+<td>as we have seen 40<br>
+as we shall see 24<br>
+we have seen 13<br>
+we have already seen 11<br>
+it can be seen 9<br>
+as can be seen 7<br>
+can also be seen 7<br>
+, we can see 7<br>
+is difficult to see 5<br>
+remains to be seen 5<br>
+</td>
+
 <td>as we have seen 43<br>
 is hard to see 19<br>
 to see 19<br>
@@ -158,10 +174,69 @@ we see 8<br>
 as we saw 8<br>
 in order to see 7<br>
 we have already seen 7</td>
-<td>91%</td>
+
+<td>as we have seen 78<br>
+as we shall see 40<br>
+we have already seen 33<br>
+we have seen 26<br>
+i do not see 25<br>
+we saw 21<br>
+as i can see 21<br>
+is difficult to see 20<br>
+that i am seeing 20<br>
+, as we saw 20<br>
+</td>
 </tr>
+
 <tr>
-<td><b>aware</b><td>-</td><td>86%</td><td>88%</td>
+<td><b>aware (forward)</b>
+<td>need to be aware 14<br>
+she was aware 12<br>
+he was aware 8<br>
+i am aware 8<br>
+we are not aware 6<br>
+should be made aware 6<br>
+you should be aware 5<br>
+be aware 4<br>
+to be fully aware 4<br>
+being aware 4<br>
+</td>
+
+<td>need to be aware 19<br>
+important to be aware 12<br>
+we are not aware 8<br>
+needs to be aware 7<br>
+may not be aware 6<br>
+we are aware 6<br>
+to be more aware 5<br>
+necessary to be aware 5<br>
+he was aware 5<br>
+being aware 5<br>
+</td>
+
+<td>one is directly aware 23<br>
+we are directly aware 17<br>
+we are not aware 15<br>
+that we are aware 12<br>
+we are immediately aware 11<br>
+that he was aware 6<br>
+that i am aware 6<br>
+can be directly aware 6<br>
+i am directly aware 5<br>
+which we are aware 5<br>
+</td>
+
+<td>we are directly aware 13<br>
+that we are aware 11<br>
+hallucinating subject is aware 9<br>
+what we are aware 9<br>
+we are immediately aware 8<br>
+are not directly aware 6<br>
+, we are aware 6<br>
+that i am aware 5<br>
+i am immediately aware 5<br>
+we are not aware 4<br>
+</td>
 </tr>
 </table>
 
