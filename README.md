@@ -11,7 +11,7 @@ The *annotation* folder contains four subdirectories for the various corpora use
 
 The study is specifically focused on lexical entries *see* and *aware*. Usage samples from BNC, PHILO and SEP have been manually annotated to distinguish perceptual vs non-perceptual usages. The directory contains the normalised annotations for those three corpora. For comparison purposes, 1500 random sentences of ACPROSE are contained in the same folder, but those were *automatically* annotated (see below).
 
-In addition to the annotation, the directory contains the contextualised vectors for *see* and *aware*, as obtained through BERT Base, for each annotated sentence. The images below show the class distribution for each corpus, after reducing the BERT vectors to 2D with PCA.
+In addition to the annotation, the directory contains the contextualised vectors for *see* and *aware*, as obtained through BERT Base, for each annotated sentence. The images below show the class distribution for each of the annotated corpora, after reducing the BERT vectors to 2D with PCA.
 
 <table border=0 >
    <tr>
@@ -38,6 +38,18 @@ In addition to the annotation, the directory contains the contextualised vectors
    </tr>
 </table>
 
+Below, we also show the class distribution for the automatically annotated ACPROSE, using the BNC background model (using SEP results in very little difference).
+
+<table border=0>
+  <tr>
+    <td>
+     <img style="vertical-align: bottom;" width="100%" height="100%" src="https://github.com/minimalparts/Perception/blob/master/annotation/ACPROSE/ACPROSE_see_BNC.png" />
+     </td>
+     <td>
+     <img style="vertical-align: bottom;" width="100%" height="100%" src="https://github.com/minimalparts/Perception/blob/master/annotation/ACPROSE/ACPROSE_aware_BNC.png" />
+     </td>
+  </tr>
+</table>
 
 
 ### Training
@@ -94,16 +106,16 @@ We first check how a model trained on one corpus fares on the other corpora. We 
 <td></td><td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
 </tr>
 <tr>
-<td><b>Baseline</b><td>70%</td><td>59%</td><td>60%</td>
+<td><b>Baseline</b><td>71%</td><td>59%</td><td>60%</td>
 </tr>
 <tr>
 <td><b>BNC</b><td>-</td><td>96%</td><td>83%</td>
 </tr>
 <tr>
-<td><b>SEP</b><td>88%</td><td>-</td><td>94%</td>
+<td><b>SEP</b><td>87%</td><td>-</td><td>94%</td>
 </tr>
 <tr>
-<td><b>PHILO</b><td></td><td></td><td>-</td>
+<td><b>PHILO</b><td>81%</td>97%<td></td><td>-</td>
 </tr>
 </table>
 
@@ -115,16 +127,16 @@ Results for *aware* are as follows:
 <td></td><td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
 </tr>
 <tr>
-<td><b>Baseline</b><td>77%</td><td>59%</td><td>91%</td>
+<td><b>Baseline</b><td>79%</td><td>60%</td><td>91%</td>
 </tr>
 <tr>
-<td><b>BNC</b><td>-</td><td>86%</td><td>88%</td>
+<td><b>BNC</b><td>-</td><td>85%</td><td>88%</td>
 </tr>
 <tr>
 <td><b>SEP</b><td>89%</td><td>-</td><td>92%</td>
 </tr>
 <tr>
-<td><b>PHILO</b><td></td><td></td><td>-</td>
+<td><b>PHILO</b><td>75%</td><td>80%</td><td>-</td>
 </tr>
 </table>
 
@@ -139,7 +151,7 @@ We also inspect the most frequent ngrams for each corpus (with n=3).
 </tr>
 <tr>
 
-<td><b>see (forward)</b>
+<td><b>see<br>(forward)</b>
 
 <td>i saw 11<br>
 she saw 8<br>
@@ -189,7 +201,7 @@ that i am seeing 20<br>
 </tr>
 
 <tr>
-<td><b>aware (forward)</b>
+<td><b>aware<br>(forward)</b>
 <td>need to be aware 14<br>
 she was aware 12<br>
 he was aware 8<br>
