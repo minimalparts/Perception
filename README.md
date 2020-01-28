@@ -77,7 +77,7 @@ Results for *see* are as follows (accuracy averages over 5-folds):
 <td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
 </tr>
 <tr>
-<td>90%</td><td>98%</td><td></td>
+<td>90%</td><td>98%</td><td>96%</td>
 </tr>
 </table>
 
@@ -89,7 +89,7 @@ Results for *aware* are as follows (accuracy averages over 5-folds):
 <td><b>BNC</b></td><td><b>SEP</b></td><td><b>PHILO</b></td>
 </tr>
 <tr>
-<td>90%</td><td>98%</td><td></td>
+<td>90%</td><td>98%</td><td>92%</td>
 </tr>
 </table>
 
@@ -115,7 +115,7 @@ We first check how a model trained on one corpus fares on the other corpora. We 
 <td><b>SEP</b><td>87%</td><td>-</td><td>94%</td>
 </tr>
 <tr>
-<td><b>PHILO</b><td>81%</td>97%<td></td><td>-</td>
+<td><b>PHILO</b><td>81%</td><td>97%</td><td>-</td>
 </tr>
 </table>
 
