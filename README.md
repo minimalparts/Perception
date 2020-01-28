@@ -139,14 +139,14 @@ We also inspect the most frequent ngrams for each corpus (with n=3).
 </tr>
 <tr>
 <td><b>see</b><td>i saw 11
-she saw 8
-he saw 8
-i can see 4
-i do n't see 4
-i ca n't see 4
-you want to see 4
-to come and see 3
-i 've just seen 3
+she saw 8<br>
+he saw 8<br>
+i can see 4<br>
+i do n't see 4<br>
+i ca n't see 4<br>
+you want to see 4<br>
+to come and see 3<br>
+i 've just seen 3<br>
 i 've never seen 3</td>
 <td>as we have seen 43
 is hard to see 19
